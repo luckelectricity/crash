@@ -5,6 +5,7 @@ class Setting():
         self.screen_height = 800
         self.bg_color = (230, 230, 230)
         self.ship_speed_factor = 15
+        self.ship_limit = 3
 
         # 子弹设置
         self.bullet_speed_factor = 30
@@ -15,6 +16,6 @@ class Setting():
 
         # 外星人设置
         self.alien_space_factor = 10
-        self.fleet_drop_speed = 100
+        self.fleet_drop_speed = 10
         # 1 代表向右 -1代表向左
         self.fleet_direction = 10
