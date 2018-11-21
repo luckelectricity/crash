@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  <h1>学习django网站</h1>
-</body>
-</html>
+{% extends "learning_logs/base.html" %}
+{% block content %}
+<h1>学习django网站</h1>
+<p>使用django写的url,好好熟悉python语法,我觉得还是要写成前后端分离的好一些.</p>
+<p>会自动刷新?</p>
+<p>哈哈哈,其实并不会.</p>
+{% endblock content %}
